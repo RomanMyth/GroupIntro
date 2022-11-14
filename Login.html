@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="login.css">
+    <script>
+        function Create(){
+            this.parent.window.getElementById('mainFrame').src = "Sign.html";
+        }
+    </script>
 </head>
 <body>
     <div id="container">
@@ -18,9 +23,9 @@
                 <label for="">Enter password:</label>
                 <input type="password" placeholder="1234567"id="pass">
             </div>
-            <button id="btn1">Forgot Password</button>
-            <button id="btn1">Create an Account</button>
-            <input type="submit" id="btn1">
+            <button class="btn1">Forgot Password</button>
+            <button class="btn1" onclick="Create()">Create Account</button>
+            <input type="submit" class="btn1">
         </form>
     </div>
 </body>

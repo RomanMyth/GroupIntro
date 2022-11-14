@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    padding-top: 25px;
+}
+#container{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 15px;
+}
+.con{
+    display: flex;
+    justify-content: space-between;
+}
