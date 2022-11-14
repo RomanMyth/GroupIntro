@@ -38,3 +38,27 @@ header {
 .signing {
     padding: 0px 20px 0px 20px;
 }
+
+#footContain {
+    background-color:gray;
+    display:flex;
+    flex-direction:row;
+}
+
+.list {
+    list-style-type:none;
+    width:50%;
+    display:flex;
+    flex-direction:row;
+}
+
+.listContain {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width:50%;
+}
+
+.listItem {
+    width:33%;
+}
