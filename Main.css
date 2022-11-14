@@ -43,28 +43,58 @@ header {
     background-color:gray;
     display:flex;
     flex-direction:row;
+    height: 50px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
-.list {
-    list-style-type:none;
-    width:50%;
-    display:flex;
-    flex-direction:row;
+#footRight {
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
 }
 
-.listContain {
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    width:50%;
-}
-
-.listItem {
-    width:33%;
+#footLeft {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
 }
 
 #mainFrame{
     width: 100%;
     height: 500px;
     border: none;
+}
+
+#twitt {
+    color: blue;
+    height: 20px;
+    width: 20px;
+}
+
+#insta {
+    color: magenta;
+    height: 20px;
+    width: 20px;
+}
+
+#face {
+    color: blue;
+    height: 20px;
+    width: 20px;
+}
+
+.iconLink:hover {
+    border-bottom: none !important;
+}
+
+a:hover {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+a:visited {
+    color: black;
 }
