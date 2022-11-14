@@ -8,7 +8,7 @@ header {
     width: 100vw;
     height: 50px;
     justify-content: space-between;
-    background-color: gray;
+    background-color: rgba(202, 21, 21, 0.801);
 }
 
 #topLeft{
@@ -40,7 +40,7 @@ header {
 }
 
 #footContain {
-    background-color:gray;
+    background-color:rgba(252, 99, 10, 0.897);;
     display:flex;
     flex-direction:row;
     height: 50px;
@@ -64,7 +64,7 @@ header {
 
 #mainFrame{
     width: 100%;
-    height: 500px;
+    height: calc(100% - 100px);
     border: none;
 }
 
